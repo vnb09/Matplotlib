@@ -10,8 +10,7 @@ phi = np.linspace(0, np.pi, 50)
 theta_grid, phi_grid = np.meshgrid(theta, phi) 
 
 x_grid = 6 * np.cos(theta_grid) * np.sin(phi_grid) # taking a = 6
-
-y_grid = 3 * np.sin(phi_grid) * np.sin(theta_grid) # taking b = 3
+# y_grid = 3 * np.sin(phi_grid) * np.sin(theta_grid) # taking b = 3
 
 z_grid = 2 * np.cos(phi_grid) # taking c = 2
 
